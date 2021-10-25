@@ -1,0 +1,5 @@
+print("Enter the first number")
+first= input()
+print("enter second number")
+second=input()
+print (first==second)
