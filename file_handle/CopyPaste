@@ -1,0 +1,9 @@
+def main(): 
+paste=open("E:\H T M L File\Python\file_handle\demo.txt" , 'a')
+reading = open("E:\H T M L File\Python\file_handle\demo.txt") 
+
+copy = reading.read()
+paste.write(copy)
+paste.flush()
+paste.close()
+print('done')
